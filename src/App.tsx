@@ -2,6 +2,7 @@ import gsap from "gsap";
 import Navbar from "./components/Navbar";
 import { ScrollTrigger, SplitText } from "gsap/all";
 import Hero from "./components/Hero";
+import Cokctails from "./components/Cokctails";
 // import { useGSAP } from "@gsap/react";
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
@@ -11,7 +12,7 @@ const App = () => {
     <main>
       <Navbar />
       <Hero />
-      <div className="h-dvh bg-black"></div>
+      <Cokctails />
     </main>
   );
 };
